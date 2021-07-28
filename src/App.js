@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 function App() {
-  useEffect(() => {
+  useEffect(
+    // side effect function
+    () => {
     console.log("useEffect called");
   });
 
